@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Activate MISE
+echo "Activate MISE"
+echo 'eval "$(mise activate zsh)"' >> ~/.zshrc

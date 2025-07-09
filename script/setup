@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# Directories
+echo "Setup preferred Directories"
+mkdir -p ~/DevTools/LocalServers
+mkdir -p ~/DevTools/LocalPlaygrounds
+mkdir -p ~/DevTools/VirtualMachines
+mkdir -p ~/DevTools/Docker/Compose
+mkdir -p ~/DevTools/Docker/Containers
+mkdir -p ~/DevTools/Repositories/Local
+mkdir -p ~/DevTools/Repositories/GitHub
+mkdir -p ~/DevTools/Repositories/GitLab
+mkdir -p ~/DevTools/Workspaces/vscode
