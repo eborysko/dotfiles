@@ -1,0 +1,8 @@
+[init]
+	defaultBranch = main
+[core]
+	editor = vi
+	excludesfile = /Users/eborysko/.gitignore_global
+[user]
+	name = Evan Borysko
+	email = eborysko@users.noreply.github.com
