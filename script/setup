@@ -8,6 +8,12 @@ mkdir -p ~/DevTools/VirtualMachines
 mkdir -p ~/DevTools/Docker/Compose
 mkdir -p ~/DevTools/Docker/Containers
 mkdir -p ~/DevTools/Repositories/Local
+mkdir -p ~/DevTools/Repositories/LocalConfig
 mkdir -p ~/DevTools/Repositories/GitHub
 mkdir -p ~/DevTools/Repositories/GitLab
 mkdir -p ~/DevTools/Workspaces/vscode
+
+# Clone Git Configuration Repos
+git clone https://github.com/dracula/iterm.git ~/DevTools/Repositories/LocalConfig/dracula/iterm
+git clone https://github.com/dracula/terminal-app.git ~/DevTools/Repositories/LocalConfig/dracula/terminal-app
+git clone https://github.com/dracula/sublime.git ~/Library/Application\ Support/Sublime\ Text/Packages/Dracula\ Color\ Scheme
